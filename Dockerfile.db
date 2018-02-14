@@ -1,0 +1,3 @@
+FROM mysql
+
+ADD docker-mysqld.cnf /etc/mysql/mysql.conf.d/mysqld.cnf

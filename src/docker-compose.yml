@@ -50,6 +50,6 @@ services:
       - MYSQL_USER=laravel_user
       - MYSQL_PASSWORD=laravel_password
       - MYSQL_ALLOW_EMPTY_PASSWORD=yes
-      - MYSQL_DATABASE=lead
+      - MYSQL_DATABASE=laravel
     volumes:
       - ./data/mysql/data:/var/lib/mysql
